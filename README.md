@@ -40,7 +40,7 @@ A responsive multipage blog website built using HTML5, CSS3, and JavaScript. The
 
 ## 📸 Screenshots
 
-> *(Add screenshots if available or upload image files in your repo)*
+
 
 ---
 
@@ -67,7 +67,9 @@ cd your-repo-name
 - GitHub
 
 📄 License
-This project is open-source and free to use for educational purposes.
+
+
+- This project is open-source and free to use for educational purposes.
 
 ---
 
