@@ -57,7 +57,9 @@ cd your-repo-name
 3. Open index.html in your browser.
 
 
-✍️ Author
+
+##✍️** Author**
+
 Lethabo Diphoko
 Front-End Web Developer
 GitHub
