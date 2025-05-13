@@ -49,3 +49,25 @@ A responsive multipage blog website built using HTML5, CSS3, and JavaScript. The
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
+
+2. Navigate into the project folder:
+```
+cd your-repo-name
+```
+3. Open index.html in your browser.
+✍️ Author
+Lethabo Diphoko
+Front-End Web Developer
+GitHub
+
+📄 License
+This project is open-source and free to use for educational purposes.
+
+---
+
+### ✅ What to Do:
+- Replace `your-username` and `your-repo-name` with your GitHub credentials.
+- Add screenshots of your project if possible (especially on desktop and mobile views).
+- Push this file as `README.md` to the root of your GitHub repository.
+
+Let me know if you’d like a version with screenshots embedded or with Netlify/Vercel deployment instructions instead.
