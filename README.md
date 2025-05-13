@@ -58,11 +58,13 @@ cd your-repo-name
 
 
 
-##✍️** Author**
+##✍️Author
 
-Lethabo Diphoko
-Front-End Web Developer
-GitHub
+- Lethabo Diphoko
+  
+- Front-End Web Developer
+  
+- GitHub
 
 📄 License
 This project is open-source and free to use for educational purposes.
