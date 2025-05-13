@@ -55,6 +55,8 @@ A responsive multipage blog website built using HTML5, CSS3, and JavaScript. The
 cd your-repo-name
 ```
 3. Open index.html in your browser.
+
+
 ✍️ Author
 Lethabo Diphoko
 Front-End Web Developer
