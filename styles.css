@@ -1,0 +1,259 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #121212;
+  color: #f5f5f5;
+  line-height: 1.6;
+}
+
+/* Containers and layout */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #1e1e1e;
+  padding: 20px 0;
+  border-bottom: 3px solid #ff0057;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+header h1 span {
+  color: #ff0057;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #ccc;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ff0057;
+}
+
+/* Hero section (homepage only) */
+.hero {
+  background: linear-gradient(120deg, #ff0057, #5f00ff);
+  padding: 70px 0;
+  text-align: center;
+  color: white;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #ffffff;
+  color: #121212;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #ddd;
+}
+
+/* Blog preview (on blog.html) */
+.blog-preview {
+  background: #1f1f1f;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 4px solid #ff0057;
+  border-radius: 5px;
+}
+
+.blog-preview h3 {
+  margin-bottom: 5px;
+}
+
+.blog-preview p {
+  margin-bottom: 10px;
+}
+
+.blog-preview a {
+  color: #ff0057;
+  text-decoration: none;
+}
+
+.blog-preview a:hover {
+  text-decoration: underline;
+}
+
+/* Article content (on blog post pages) */
+article {
+  background-color: #1c1c1c;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(255, 0, 87, 0.1);
+}
+
+article h2 {
+  color: #ff0057;
+  margin-bottom: 10px;
+}
+
+article p, article ol {
+  margin-bottom: 15px;
+}
+
+article ol {
+  padding-left: 20px;
+}
+
+article li {
+  margin-bottom: 8px;
+}
+
+/* About and Contact pages */
+.page-content {
+  background-color: #1c1c1c;
+  padding: 30px;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 0 8px rgba(255, 0, 87, 0.08);
+}
+
+.page-content h2 {
+  color: #ff0057;
+  margin-bottom: 20px;
+}
+
+/* Contact form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input, form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 4px;
+  background: #2e2e2e;
+  color: white;
+}
+
+form input:focus, form textarea:focus {
+  outline: 2px solid #ff0057;
+}
+
+form button {
+  background: #ff0057;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background: #ff3366;
+}
+
+/* Footer */
+footer {
+  background: #1e1e1e;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  border-top: 1px solid #333;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .hero h2 {
+    font-size: 2rem;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  article, .page-content {
+    padding: 20px;
+  }
+}
+
+/* Blog preview images */
+.blog-preview {
+  display: flex;
+  background: #1f1f1f;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 4px solid #ff0057;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.blog-preview .blog-image {
+  flex: 0 0 150px; /* Fix the width of the image container */
+  margin-right: 20px;
+}
+
+.blog-preview img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.blog-preview .blog-text {
+  flex: 1;
+}
+
+.blog-preview h3 {
+  margin-bottom: 5px;
+}
+
+.blog-preview p {
+  margin-bottom: 10px;
+}
+
+.blog-preview a {
+  color: #ff0057;
+  text-decoration: none;
+}
+
+.blog-preview a:hover {
+  text-decoration: underline;
+}
