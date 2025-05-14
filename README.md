@@ -13,7 +13,7 @@ A responsive multipage blog website built using HTML5, CSS3, and JavaScript. The
 
 ## 🚀 Live Demo
 
-👉 [Click here to view the website](https://your-username.github.io/your-repo-name/)
+👉 [Click here to view the website](https://lethabo-logic.github.io/my-website/) 
 
 > Replace with your actual GitHub Pages link after deployment.
 
